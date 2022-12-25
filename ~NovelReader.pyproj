@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2ffc1ced-9c83-4284-8516-b3c4e21930b4}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>NovelReader.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>Global|PythonCore|3.9</InterpreterId>
+    <IsWindowsApplication>False</IsWindowsApplication>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="functions.py" />
+    <Compile Include="interface.py" />
+    <Compile Include="mythread.py" />
+    <Compile Include="Novel.py" />
+    <Compile Include="NovelReader.py" />
+    <Compile Include="pyinstaller快捷通道%28special%29.py" />
+    <Compile Include="Reader.py" />
+    <Compile Include="settings.py" />
+    <Compile Include="副本\functions.py" />
+    <Compile Include="副本\interface.py" />
+    <Compile Include="副本\Novel.py" />
+    <Compile Include="副本\NovelReader.py" />
+    <Compile Include="副本\pyinstaller快捷通道.py" />
+    <Compile Include="副本\Reader.py" />
+    <Compile Include="副本\settings.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="dist\NovelReader\records\record.txt" />
+    <Content Include="dist\NovelReader\records\settings.txt" />
+    <Content Include="dist\NovelReader\records\《一渣到底[快穿]》_record.txt" />
+    <Content Include="dist\NovelReader\records\《万人迷她倾倒众生[快穿]》_record.txt" />
+    <Content Include="dist\NovelReader\records\《伪装绿茶》_record.txt" />
+    <Content Include="dist\NovelReader\records\《就怕绿茶有演技》_record.txt" />
+    <Content Include="dist\NovelReader\records\《进冷宫后皇帝火葬场了》_record.txt" />
+    <Content Include="dist\NovelReader\records\《顾爷，夫人她又在装可怜了》_record.txt" />
+    <Content Include="dist\NovelReader\tk\images\logo100.gif" />
+    <Content Include="dist\NovelReader\tk\images\logo64.gif" />
+    <Content Include="dist\NovelReader\tk\images\logoLarge.gif" />
+    <Content Include="dist\NovelReader\tk\images\logoMed.gif" />
+    <Content Include="dist\NovelReader\tk\images\pwrdLogo100.gif" />
+    <Content Include="dist\NovelReader\tk\images\pwrdLogo150.gif" />
+    <Content Include="dist\NovelReader\tk\images\pwrdLogo175.gif" />
+    <Content Include="dist\NovelReader\tk\images\pwrdLogo200.gif" />
+    <Content Include="dist\NovelReader\tk\images\pwrdLogo75.gif" />
+    <Content Include="dist\NovelReader\tk\images\tai-ku.gif" />
+    <Content Include="records\record.txt" />
+    <Content Include="records\settings.txt" />
+    <Content Include="records\《一渣到底[快穿]》_record.txt" />
+    <Content Include="records\《万人迷她倾倒众生[快穿]》_record.txt" />
+    <Content Include="records\《伪装绿茶》_record.txt" />
+    <Content Include="records\《就怕绿茶有演技》_record.txt" />
+    <Content Include="records\《穿成仙侠虐文女主》_record.txt" />
+    <Content Include="records\《顾爷，夫人她又在装可怜了》_record.txt" />
+    <Content Include="副本\Readme.txt" />
+    <Content Include="副本\records\record.txt" />
+    <Content Include="副本\records\settings.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="dist\" />
+    <Folder Include="dist\NovelReader\" />
+    <Folder Include="dist\NovelReader\records" />
+    <Folder Include="dist\NovelReader\tk\" />
+    <Folder Include="dist\NovelReader\tk\images" />
+    <Folder Include="records" />
+    <Folder Include="副本" />
+    <Folder Include="副本\records" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.9" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>

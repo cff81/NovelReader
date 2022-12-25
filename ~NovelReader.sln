@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "~NovelReader", "~NovelReader.pyproj", "{2FFC1CED-9C83-4284-8516-B3C4E21930B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FFC1CED-9C83-4284-8516-B3C4E21930B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FFC1CED-9C83-4284-8516-B3C4E21930B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C3D72D0-3BD1-485A-8F56-1A5EC3B9219B}
+	EndGlobalSection
+EndGlobal
